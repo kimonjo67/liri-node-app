@@ -94,7 +94,8 @@ function displaySpotify() {
 })	
 };
 
-// TO BE WORKED ON
+// TO BE WORKED ON... PENDING BELOW >>>>>>>>>>>>>>>>
+// add  query method and for loops 
 function displayMovie() {
 	// We then run the request module on a URL with a JSON
 Request("http://www.omdbapi.com/?t=remember+the+titans&y=&plot=short&apikey=trilogy", function(error, response, body) {
