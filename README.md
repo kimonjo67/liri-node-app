@@ -17,30 +17,30 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 * Displays my last favourite tweets I liked.
 2. node liri.js spotify-this <song name>
 	* Shows the following info
-			*Artist
-			*Name of Song
-			*Preview link
-			*Name of album
+			* Artist
+			* Name of Song
+			* Preview link
+			* Name of album
 3. node liri.js movie-this <movie name>
 	* Shows
-			*Title of the movie.
-			*Year the movie came out.
-			*IMDB Rating of the movie.
-			*Country where the movie was produced.
-			*Language of the movie.
-			*Plot of the movie.
-			*Actors in the movie.
-			*Rotten Tomatoes Rating.
-			*Rotten Tomatoes URL.
+			* Title of the movie.
+			* Year the movie came out.
+			* IMDB Rating of the movie.
+			* Country where the movie was produced.
+			* Language of the movie.
+			* Plot of the movie.
+			* Actors in the movie.
+			* Rotten Tomatoes Rating.
+			* Rotten Tomatoes URL.
 4. node liri.js do-what-it-says
 		
-#Technology Used
-	*Node.js
-	*Twitter NPM
-	*Spotify NPM
-	*Request NPM
+# Technology Used
+	* Node.js
+	* Twitter NPM
+	* Spotify NPM
+	* Request NPM
 
-#Author
+# Author
 	* Sam Mwangi
 
 
