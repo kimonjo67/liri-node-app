@@ -6,7 +6,6 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 *do-what-it-says
 ## Link here https://kimonjo67.github.io/liri-node-app/
 
-
 # Getting started
 * Clone repo
 * Run command 'npm install' in Terminal
