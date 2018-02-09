@@ -130,16 +130,16 @@ Request("http://www.omdbapi.com/?t=" +input + "&y=&plot=short&apikey=trilogy", f
 });
 };
 
-function doThing() {
+function doThing(commandArg) {
   // body...
 fs.readFile("random.txt", "utf8", function (error, data) {
-  if (error) {
-    return console.log("Error");
-  }
+  if (!error) {
 
   var dataArr = data.split(",");
-  console.log(dataArr);
-  displaySpotify(dataArr);
+  var commandArg = dataArr[1];
+  console.log(commandArg);
+  displaySpotify(commandArg);
+  }
 });
 }
 
